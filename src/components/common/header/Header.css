@@ -1,5 +1,5 @@
-.nav-wrapper{
+nav{
   position: fixed;
   z-index: 999;
-  margin-left: 30px;
+  padding-left: 30px;
 }

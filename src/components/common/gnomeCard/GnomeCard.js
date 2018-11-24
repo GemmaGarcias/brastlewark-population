@@ -45,8 +45,8 @@ const GnomeCard = (props) => {
           </ul>
           <p className='text-info friends-title'>
             <strong>
-              {`${friends.length} ${props.gnomeInfoDetail_title4}`}
-              {friends.length ? ':' : null}
+              {`${professions.length} ${props.gnomeInfoDetail_title4}`}
+              {professions.length ? ':' : null}
             </strong>
             <i className="material-icons left">card_travel</i>
           </p>
