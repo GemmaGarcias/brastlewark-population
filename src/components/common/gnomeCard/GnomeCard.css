@@ -4,6 +4,10 @@ img {
   width: 100%;
   border-radius: 5px;
 }
+
+strong{
+  font-weight: 600;
+}
 .img-wrapper {
   height: 253px;
 }
@@ -26,4 +30,20 @@ img {
 
 .left-wrapper{
   margin-left: 10px;
+}
+
+.detail-info{
+  margin-top: 20px;
+}
+
+.text-info{
+  line-height: 30px;
+}
+.friends-title{
+  margin-bottom: 0px;
+}
+
+.friendsList{
+  margin-left: 40px;
+  margin-top: 0px;
 }

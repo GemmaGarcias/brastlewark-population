@@ -6,7 +6,7 @@ const Header = (props) => {
 	return(
     <nav>
       <div className="nav-wrapper">
-        <a href="#!" className="brand-logo"><i className="material-icons">home</i>{props.title}</a>
+        <a href="/" className="brand-logo"><i className="material-icons">home</i>{props.title}</a>
       </div>
     </nav>
 	)
@@ -14,6 +14,6 @@ const Header = (props) => {
 
 // Set default props
 Header.defaultProps = {
-  title: "BRASTLEWARK POPULATION"
+  title: "BRASTLEWARK"
 };
 export default Header;

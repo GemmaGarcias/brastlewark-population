@@ -10,21 +10,31 @@ class Index extends Component {
   constructor(){
     super();
     this.state = {
-      population: []
+      population: [],
+      hairFilter: []
     };
   }
   componentWillMount() {
     getPopulation()
       .then(data => {
         this.setState({
-          population: data.Brastlewark
+          population: data.Brastlewark,
         })
-     })
+     });
+     this._getHairFilter();
+  }
+
+  _getHairFilter= ()=>{
+    let hairColourList= [];
+    this.state.population.forEach((population, index)=>{
+      if(hairColourList.indexOf(population.hair_color) != -1){
+        hairColourList.push(population.hair_color)
+      }
+    })
   }
 
 
   render() {
-    console.log(this.state.population);
     return (
       <div className="index-wrapper row">
         <div className='col s12 m3'>
