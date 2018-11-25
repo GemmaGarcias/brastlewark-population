@@ -23,12 +23,12 @@ class Filters extends Component {
       <div>
         <ul id="slide-out" className={this.state.isMobileSize ? "sidenav" : "sidenav sidenav-fixed menu-filters"}>
           <li><a href="#!"><i className="material-icons">cloud</i>Filters</a></li>
-          <li><a href="#!">Second Link</a>
-            <HairFilter/>
-          </li>
           <li><div className="divider"></div></li>
-          <li><a className="subheader">Subheader</a></li>
-          <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
+          <li>
+            <HairFilter
+              hairColorList={this.props.hairColorList}
+              handleClickColorFilter={this.props.handleClickColorFilter}/>
+          </li>
         </ul>
         {this.state.isMobileSize ? <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i>Filters</a> : null}
       </div>

@@ -1,0 +1,18 @@
+.filter-wrapper-menu{
+  margin-left: 40px;
+}
+
+.color-list{
+  margin-left: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+  padding-left: 10px;
+  border-bottom: 1px solid #D3D3D3;
+}
+.color-list:hover{
+  background-color: #D3D3D3;
+}
+
+.material-icons.filter-icons{
+  line-height: 45px;
+}

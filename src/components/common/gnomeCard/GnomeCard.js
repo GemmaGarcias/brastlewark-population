@@ -6,7 +6,7 @@ const GnomeCard = (props) => {
   const {thumbnail, name, age, hair_color, friends, height, weight, id, professions } = props.data;
 
 	return(
-    <div className="col s6 m6" key={id}>
+    <div className="col s12 m6" key={id}>
 
       <div className="card">
         <div className="card-image waves-effect waves-block waves-light img-wrapper">
