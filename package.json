@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "react-test-renderer": "^16.6.3"
-  }
+  },
+  "homepage" : "http://gemma.garcias.github.io/brastlewark-population"
 }
